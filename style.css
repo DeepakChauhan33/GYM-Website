@@ -133,57 +133,53 @@ header {
 
 .holder{
     width: 100%;
-    height: 68%;
+    height: max-content;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     /* align-items: center; */
     padding: 15px;
     /* border: 1px solid white; */
 }
 
-.faram{
-    height: 550px;
-    width: 42%;
-    background-color: rgba(238, 231, 231, 0.092);
-    padding: 29px;
-    margin-top: 36%;
+
+.bmi_txt{
+    height: max-content;
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+
 
 }
 
-.faram span{
-    font-size:40px;
-}
-
-.faram p{
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-.faram ul{
-    margin-top: 25px;
-}
-.faram li{
-    list-style: none;
-    font-size: 18px;
-    margin-bottom: 11px;
-}
-
-
-.faram button{
-    height: 60px;
-    width: 120px;
-    background-color: #d75f10;
-    margin-left: 42%;
-    margin-top: 70px;
-    font-size: 16px;
-    font-weight: 800;
-    cursor: pointer;
+.bmi-calculator{
+    height: 25rem;
+    width: 50%;
+    /* border: 1px solid rgb(138, 0, 0); */
+    padding: 20px;
+    display: flex;
+    align-items: center;
 
 }
+
+.bmi-calculator a{
+    font-size: 28px;
+    color: rgb(255, 238, 0);
+    text-decoration: none;
+    transition: color 0.4s ease, font-size 0.2s ease;
+}
+
+.bmi-calculator a:hover{
+    color: #d75f10;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
 
 
 .text_heading{
-    height: 500px;
+    height: 400px;
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -193,6 +189,8 @@ header {
     padding-left: 0%;
     padding-bottom: 25px;
 }
+
+
 
 .text_heading p{
     color: rgb(255, 255, 255);
@@ -214,6 +212,68 @@ header {
   font-weight: 800;
   font-style: italic;
 }
+
+
+
+
+
+.faram{
+    height: 550px;
+    width: 42%;
+    background-color: rgba(22, 22, 28, 0.701);
+    padding: 29px;
+    /* border: 1px solid white; */
+
+}
+
+#offer_txt{
+    font-size: 68px;
+    color: rgb(190, 30, 30);
+}
+
+
+#offer_txt i{
+    color: rgb(190, 30, 30);
+}
+
+.faram span{
+    font-size:33px;
+    font-weight: 900;
+}
+
+.faram b{
+    color: rgb(247, 247, 247);
+}
+
+.faram p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.faram ul{
+    margin-top: 25px;
+}
+.faram li{
+    list-style: none;
+    font-size: 28px;
+    margin-bottom: 11px;
+    color: rgb(160, 160, 19);
+}
+
+
+.faram button{
+    height: 60px;
+    width: 120px;
+    background-color: #d75f10;
+    margin-left: 42%;
+    margin-top: 70px;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+
 
 
 
